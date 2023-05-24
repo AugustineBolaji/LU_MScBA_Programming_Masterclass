@@ -4,12 +4,12 @@ Created on Thu May 19 11:52:10 2022
 
 @author: rhodesle
 """
-#Importing packages
+#Importing packages for the simulation modelling
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-def CTMC(Horizon, initial_state, generator, dt = 0.01):
+def CTMC(horizon, initial_state, generator, dt = 0.01):
     """
     A function to numerically integrate a continuous time Markov chain.
 
